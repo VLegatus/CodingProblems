@@ -16,4 +16,20 @@ function SumIsK(list, k){
   }
   return false;
 }
+  
 console.log(SumIsK(list,k));
+
+
+//O(n)
+function SetSumIsK(list, k){
+	var set = new Set();
+	for(var i= 0; i<list.length; i++){
+		set.add(list[i]);
+		if(set.has(k-list[i]))
+			return true;
+	}
+	  
+	return false;
+}
+  
+console.log(SetSumIsK(list,k));
