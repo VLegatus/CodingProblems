@@ -1,0 +1,54 @@
+Given a list of names, find the name that occurs the most. If there's a tie, choose whichever comes first alphabetically.
+	
+I completely screwed up the interview. 
+I spent too long to answer with TC: O(n^2). It was so messy that I couldn't even remember what I put. 
+	
+My code on the bus O(n^2):
+HashSet
+AL1
+arr[]
+max
+indMax
+for str length
+if(HashSet contains str[i])
+{
+	arr[AL1 indexof str[i]]++
+}
+else
+	HashSet add str[i]
+	AL1 push str[i]
+	arr[i].push
+for arr[] length
+if max < arr[i]
+	max = arr[i]
+	indMax = i;
+if max == arr[i]
+	if AL1 at i > AL1 at indMax
+		indMax = i;
+		
+		
+Easiest way to think, solved by a friend extremely quickly O(nlogn)
+sort it
+iterate through
+get max
+since max hits the first one if you're doing > and not >=, you're set.
+
+O(n) 2 days later when I finally decided to break free of my fear of hashmaps. I was thinking about how I could get a String and Integer in a HashSet.
+
+HashMap<String, Integer> hm = new HashMap<String, Integer>();
+int max =0;
+String maxKey;
+iterate through,
+	HashMap contains ? integer at key String ++ : put(str, int);
+iterate through HashMap to find max
+	if(max < hm Integer @ iterator) 
+	{
+		max = hm Integer @ iterator;
+		maxKey = hm. key @ iterator;
+	}
+	else if max == hm Integer @ iterator){
+		if( hm key @ iterator > maxKey){
+			maxKey = hm key @iterator;
+		}
+	}
+	
