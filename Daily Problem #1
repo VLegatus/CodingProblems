@@ -16,8 +16,24 @@ function SumIsK(list, k){
   }
   return false;
 }
+
   
 console.log(SumIsK(list,k));
+
+
+console.log(LinearSumIsK(list,k));
+
+//O(n^2)
+function IncludesSumIsK(list, k){
+	for(var i= 0; i<list.length; i++){
+		if(list.includes(k-list[i]))
+			return true;
+	}
+	  
+	return false;
+}
+  
+console.log(IncludesSumIsK(list,k));
 
 
 //O(n)
