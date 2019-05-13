@@ -1,4 +1,4 @@
-# RandomProjects
-This repo is for everything that I just had fun coding.
+# Coding Problems
+Chances are, they'll be in pseudocode, since touching Google and a compiler has been detrimental to my process.
 
-Now, I am using it for Daily Coding Problems I get through a subscription
+When it reaches my best attempt, I plan to code it in Java, C#, or C++ depending on best usage or for fun.
