@@ -46,7 +46,7 @@ iterate through HashMap to find max
 		max = hm Integer @ iterator;
 		maxKey = hm. key @ iterator;
 	}
-	else if max == hm Integer @ iterator){
+	else if (max == hm Integer @ iterator){
 		if( hm key @ iterator > maxKey){
 			maxKey = hm key @iterator;
 		}
